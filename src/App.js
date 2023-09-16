@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     const stroedUserLoggedInInfo = localStorage.getItem("isLoggedIn");
-    
+
     if (stroedUserLoggedInInfo === "1") {
       setIsLoggedIn(true);
     }
